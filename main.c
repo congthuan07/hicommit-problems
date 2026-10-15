@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 int main() {
   int n;
   printf("Nhap so nguyen n: ");
