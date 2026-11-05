@@ -1,15 +1,14 @@
 #include <stdio.h>
 
 int main() {
-  float a;
-  int b;
-  scanf("%f", &a);
-  scanf("%d", &b);
-  if(a>=9.0&&b==90)
+  float dtb, drl;
+  scanf("%f", &dtb);
+  scanf("%f", &drl);
+  if(dtb>=9.0&&drl==90)
     printf("HOC_BONG_XUAT_SAC");
-  else if(8.0<=a==9.0||a>=9.0&&80<=b<90||b>=90)
+  else if(8.0<=dtb==9.0||dtb>=9.0&&80<=drl<90||drl>=90)
     printf("HOC_BONG_GIOI");
-  else if(70<=b<80||7.0<=a<8.0)
+  else if(70<=drl<80||7.0<=dtb<8.0)
     printf("HOC_BONG_KHA");
   else
     printf("KHONG_DAT");
