@@ -2,10 +2,7 @@
 
 int main() {
   float a, b;
-  printf("Nhap diem trung binh hoc tap: ");
-  scanf("%d", &a);
-  printf("nhap diem ren luyen: ");
-  scanf("%d", &b);
+  scanf("%d%d", &a, &b)
   if(a>=9.0&&b==90)
     printf("HOC_BONG_XUAT_SAC");
   else if(8.0<=a==9.0&&80<=b<90||b>=90)
