@@ -2,7 +2,7 @@
 
 int main() {
   int loai;
-  scantf("%d", &loai);
+  scanf("%d", &loai);
   switch (loai){
     case 1:
       printf("XEP_LOAI_XUAT_SAC");
